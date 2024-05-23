@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Języki Obce</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Języki Obce</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Strona Główna</a></li>
+                <li><a href="#countries">Kraje</a></li>
+                <li><a href="#alphabets">Alfabety</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Witamy na stronie o językach obcych!</h2>
+            <p>Odkryj fascynujący świat języków, kultur i alfabetów z różnych krajów.</p>
+        </section>
+        <section id="countries">
+            <h2>Kraje</h2>
+            <div class="country">
+                <h3>Japonia</h3>
+                <p>Informacje o Japonii...</p>
+            </div>
+            <div class="country">
+                <h3>Francja</h3>
+                <p>Informacje o Francji...</p>
+            </div>
+            <!-- Dodaj więcej krajów w podobny sposób -->
+        </section>
+        <section id="alphabets">
+            <h2>Alfabety</h2>
+            <div class="alphabet">
+                <h3>Alfabet Łaciński</h3>
+                <p>Informacje o alfabecie łacińskim...</p>
+            </div>
+            <div class="alphabet">
+                <h3>Alfabet Cyrylica</h3>
+                <p>Informacje o cyrylicy...</p>
+            </div>
+            <!-- Dodaj więcej alfabetów w podobny sposób -->
+        </section>
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <p>Możesz się z nami skontaktować pod adresem email@example.com</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Języki Obce</p>
+    </footer>
+</body>
+</html>
